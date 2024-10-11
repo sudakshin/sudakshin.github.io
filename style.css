@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	overflow: hidden;
 	height: 100vh;
-	width: 100hr;
+	width: 100vw; /* Corrected from 100hr */
 	background-color: black;
 }
 
@@ -12,4 +12,13 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.corner-gif {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 10;
+	width: 300px; /* Adjust size as needed */
+	height: auto;
 }
